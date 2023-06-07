@@ -1,6 +1,12 @@
 import os
 import sys
 
+# Usage: python3 </path/to/script.py> <directory to search> <filenamelist.txt>
+# This script will search a directory to see if a list of files are present. The list can have full filenames, with extension, or just filenames without an extension.
+# If a match with the name + extension is found, this will be reported as an Exact Match
+# If a match with just the name is found, this will be reported as a Close Match
+# Non matched files will be listed
+
 # Get the directory and filename list from the command line arguments
 directory = sys.argv[1]
 filename_list_path = sys.argv[2]
