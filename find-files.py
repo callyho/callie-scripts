@@ -50,7 +50,7 @@ if len(not_found_files) == 0:
     print(" *** ALL files found! :) ***")
     print()
 
-# Print the summary of matches and non-matches
+# Print the summary of matches and non-matches in lists
 total_files = len(filenames)
 exact_matches_count = len(exact_matches)
 close_matches_count = len(close_matches)
